@@ -18,7 +18,7 @@ public class Pessoa {
     private Titulo id_titulo;
     private Registro id_registro;
     private RG id_rg;
-    private Certificado id_certificado;
+    private CertificadoMilitar id_certificado;
 
     public String getNome() {
         return nome;
@@ -76,11 +76,11 @@ public class Pessoa {
         this.id_rg = id_rg;
     }
 
-    public Certificado getId_certificado() {
+    public CertificadoMilitar getId_certificado() {
         return id_certificado;
     }
 
-    public void setId_certificado(Certificado id_certificado) {
+    public void setId_certificado(CertificadoMilitar id_certificado) {
         this.id_certificado = id_certificado;
     }
     
