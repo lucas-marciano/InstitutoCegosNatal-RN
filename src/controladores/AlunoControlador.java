@@ -6,7 +6,6 @@
 
 package controladores;
 
-import entidades.Pessoa;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -17,7 +16,7 @@ import entidades.Aluno;
  *
  * @author Lucas
  */
-public class AlunoControlador implements Pessoa{
+public class AlunoControlador{
     public static void cadastrar(Aluno a)throws SQLException{
         try{
             Connection conexao = Controladora.conectar();
