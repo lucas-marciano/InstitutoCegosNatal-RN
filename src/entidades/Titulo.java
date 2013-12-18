@@ -10,7 +10,7 @@ package entidades;
  *
  * @author Lucas
  */
-class Titulo {
+public class Titulo {
     private String estado;
     private String municipio;
     private String secao;

@@ -13,7 +13,9 @@ package entidades;
 public class Pessoa {
     private String nome;
     private String telefone;
-    private String endereco;
+    private String celular;
+    private String cidade;
+    private String estado;
     private int id;
     private Titulo id_titulo;
     private Registro id_registro;
@@ -36,12 +38,20 @@ public class Pessoa {
         this.telefone = telefone;
     }
 
-    public String getEndereco() {
-        return endereco;
+    public String getCelular() {
+        return celular;
     }
 
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
+    public void setCelular(String celular) {
+        this.celular = celular;
+    }
+    
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
     }
 
     public int getId() {
@@ -82,6 +92,14 @@ public class Pessoa {
 
     public void setId_certificado(CertificadoMilitar id_certificado) {
         this.id_certificado = id_certificado;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
     
     

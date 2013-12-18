@@ -5,13 +5,15 @@
  */
 
 package institutocegosnatal.rn;
+import java.util.ArrayList;
 import view.TelaPrincipal;
+import view.TelaSecretaria;
 /**
  *
  * @author Lucas
  */
 public class InstitutoCegosNatalRN {
-    
+  
     /**
      * @param args the command line arguments
      */
@@ -20,5 +22,11 @@ public class InstitutoCegosNatalRN {
         TelaPrincipal tp = new TelaPrincipal();
         tp.setVisible(true);
     }
+    
+    /*
+    * Metodo que é utilizado para preencher todos os dropBox da interface
+    * usa uma instancia da classe (singleton) por meio do metodo getTela().
+    */
+   
     
 }

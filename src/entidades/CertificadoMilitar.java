@@ -12,19 +12,19 @@ import java.util.Date;
  *
  * @author Lucas
  */
-class CertificadoMilitar {
-    private int id_militar;
+public class CertificadoMilitar {
+    private String id_militar;
     private String serie;
     private String unidade;
     private String numCartReservista;
     private String categoria;
-    private Date dataExpedicao;
+    private String dataExpedicao;
 
-    public int getId_militar() {
+    public String getId_militar() {
         return id_militar;
     }
 
-    public void setId_militar(int id_militar) {
+    public void setId_militar(String id_militar) {
         this.id_militar = id_militar;
     }
 
@@ -60,11 +60,11 @@ class CertificadoMilitar {
         this.categoria = categoria;
     }
 
-    public Date getDataExpedicao() {
+    public String getDataExpedicao() {
         return dataExpedicao;
     }
 
-    public void setDataExpedicao(Date dataExpedicao) {
+    public void setDataExpedicao(String dataExpedicao) {
         this.dataExpedicao = dataExpedicao;
     }
     

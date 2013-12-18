@@ -10,13 +10,30 @@ package entidades;
  *
  * @author Lucas
  */
-class Registro {
+public class Registro {
     private String estado;
-    private String municipio;
-    private String secao;
-    private String zona;
+    private String cidade;
+    private String cartorio;
+    private String n_livro;
+    private String data;
     private String id_registro;
 
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+    public String getN_livro() {
+        return n_livro;
+    }
+
+    public void setN_livro(String n_livro) {
+        this.n_livro = n_livro;
+    }
+    
     public String getEstado() {
         return estado;
     }
@@ -25,28 +42,28 @@ class Registro {
         this.estado = estado;
     }
 
-    public String getMunicipio() {
-        return municipio;
+    public String getCartorio() {
+        return cartorio;
     }
 
-    public void setMunicipio(String municipio) {
-        this.municipio = municipio;
+    public void setCartorio(String cartorio) {
+        this.cartorio = cartorio;
     }
 
-    public String getSecao() {
-        return secao;
+    public String getNlivro() {
+        return n_livro;
     }
 
-    public void setSecao(String secao) {
-        this.secao = secao;
+    public void setNlivro(String n_livro) {
+        this.n_livro = n_livro;
     }
 
-    public String getZona() {
-        return zona;
+    public String getData() {
+        return data;
     }
 
-    public void setZona(String zona) {
-        this.zona = zona;
+    public void setData(String data) {
+        this.data = data;
     }
 
     public String getId_registro() {

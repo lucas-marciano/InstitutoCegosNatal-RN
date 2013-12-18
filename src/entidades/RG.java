@@ -10,28 +10,10 @@ package entidades;
  *
  * @author Lucas
  */
-class RG {
-    private String nomePai;
-    private String nomeMae;
+public class RG {
     private String orgaoExpedidor;
     private String estado;
     private String id_rg;
-
-    public String getNomePai() {
-        return nomePai;
-    }
-
-    public void setNomePai(String nomePai) {
-        this.nomePai = nomePai;
-    }
-
-    public String getNomeMae() {
-        return nomeMae;
-    }
-
-    public void setNomeMae(String nomeMae) {
-        this.nomeMae = nomeMae;
-    }
 
     public String getOrgaoExpedidor() {
         return orgaoExpedidor;
